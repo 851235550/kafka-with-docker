@@ -11,16 +11,16 @@
 
 ##### First: enter dir
 ```
-    cd ./plain
-    or 
-    cd ./scram
+cd ./plain
+or 
+cd ./scram
 ```
 
 ##### Second: run docker compose
 ```
- docker compose build
- &&
- docker compose up
+docker compose build
+&&
+docker compose up
 ```
 
 ##### Third: enter docker container
@@ -28,7 +28,7 @@
 docker exec -it ${containerID} /bin/bash
 ```
 
-##### Fourth
+##### Fourth: use
 ```shell
 kafka-topics --bootstrap-server broker:9092 --replication-factor 1 --partitions 1 --create --topic t24 --command-config /etc/kafka/configs/producer.properties
 
