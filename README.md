@@ -1,13 +1,13 @@
 # Kafka-with-docker
 
-#### This repo has two docker compose file.
+### This repo has two docker compose file.
 
 ##### 1. Auth with SASL/PLAIN
 ##### 2. Auth with SASL/SCRAM
 
 
 
-#### How to use?
+### How to use?
 
 ##### First: enter dir
 ```
